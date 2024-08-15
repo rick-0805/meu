@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planilha Editável</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Planilha</a></li>
+            <li><a href="#">Contrato</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1>Planilha Editável</h1>
+        <table id="editableTable">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Fonte</th>
+                    <th>Código</th>
+                    <th>Descrição</th>
+                    <th>Unidade</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td contenteditable="true">1</td>
+                    <td contenteditable="true">Fonte A</td>
+                    <td contenteditable="true">001</td>
+                    <td contenteditable="true">Descrição do Item A</td>
+                    <td contenteditable="true">Unidade A</td>
+                    <td contenteditable="true">10</td>
+                </tr>
+                <tr>
+                    <td contenteditable="true">2</td>
+                    <td contenteditable="true">Fonte B</td>
+                    <td contenteditable="true">002</td>
+                    <td contenteditable="true">Descrição do Item B</td>
+                    <td contenteditable="true">Unidade B</td>
+                    <td contenteditable="true">20</td>
+                </tr>
+                <!-- Adicione mais linhas conforme necessário -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
